@@ -1,0 +1,33 @@
+body {
+  background-image: url("wintery.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.row {
+  color: white;
+  text-align: center;
+}
+.maintext {
+  font-size: 150%;
+  font-family: "Gill Sans", sans-serif;
+  list-style: none;
+}
+.smalltext {
+  font-size: 130%;
+  font-family: "Gill Sans", sans-serif;
+}
+.bigweather {
+  padding: 1em;
+}
+.weather-app {
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 30px;
+  max-width: 900px;
+}
+.subtext {
+  color: white;
+  text-align: center;
+}
