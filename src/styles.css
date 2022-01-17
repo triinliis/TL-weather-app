@@ -31,3 +31,12 @@ body {
   color: white;
   text-align: center;
 }
+.below {
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+  margin: 0px 0px 0px 30px;
+}
+.below-name {
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+}
