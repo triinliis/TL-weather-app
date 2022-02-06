@@ -5,7 +5,7 @@ body {
   background-size: 100% 100%;
 }
 .row {
-  color: white;
+  color: grey;
   text-align: center;
 }
 .maintext {
@@ -26,17 +26,18 @@ body {
   border-radius: 10px;
   margin: 30px;
   max-width: 900px;
+  background-color: white;
 }
 .subtext {
-  color: white;
+  color: grey;
   text-align: center;
 }
 .below {
-  color: white;
+  color: grey;
   font-family: "Gill Sans", sans-serif;
   margin: 0px 0px 0px 30px;
 }
 .below-name {
-  color: white;
+  color: grey;
   font-family: "Gill Sans", sans-serif;
 }
