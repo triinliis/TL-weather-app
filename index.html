@@ -19,31 +19,31 @@
       <div class="weather-app">
         <div class="row">
           <div class="col-1"></div>
-          <div class="col-4">
+          <div class="col-5">
             <span class="bigweather">
-              <h1 id="city">Tallinn</h1>
+              <form class="search-form" id="search-form">
+                <input
+                  type="text"
+                  id="city-input"
+                  placeholder="Type city name here"
+                  autocomplete="off"
+                />
+                <input type="submit" value="Search" />
+              </form>
+              <button
+                type="button"
+                class="currentLocationButton"
+                id="current-location-but"
+              >
+                📍
+              </button>
+              <h1 id="city"></h1>
               <br />
               <img src="" alt="Clear" id="icon" class="float-left" />
             </span>
           </div>
-          <div class="col-2"></div>
+          <div class="col-1"></div>
           <div class="col-4">
-            <form class="search-form" id="search-form">
-              <input
-                type="text"
-                id="city-input"
-                placeholder="Insert city name here"
-                autocomplete="off"
-              />
-              <input type="submit" value="Search" />
-            </form>
-            <button
-              type="button"
-              class="currentLocationButton"
-              id="current-location-but"
-            >
-              📍
-            </button>
             <br />
             <ul class="maintext">
               <li>
