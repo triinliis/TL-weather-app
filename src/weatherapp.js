@@ -38,7 +38,7 @@ let minutes = now.getMinutes();
 if (minutes < 10) {
   minutes = `0${minutes}`;
 }
-currentime.innerHTML = `${weekDay}, ${month} ${day} | ${hours}:${minutes}`;
+currentime.innerHTML = `${weekDay}, ${month} ${day} ⏱ ${hours}:${minutes}`;
 
 //Shows searched city
 function search(event) {
@@ -117,4 +117,4 @@ function convertToCelsius(event) {
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
 
-searchCity("Tokyo");
+searchCity("Paris");

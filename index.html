@@ -17,27 +17,31 @@
   <body>
     <div class="container">
       <div class="weather-app">
+        <form id="search-form">	
+	        <div class="row">
+	          <div class="col-8">
+            	<input
+	              type="text"
+	              placeholder="Type city name here"
+	              class="form-control"
+              	id="city-input"
+	            />
+	          </div>
+	          <div class="col-2">
+	            <input type="submit" value="Search" class="btn btn-secondary" />
+	          </div>
+          	<div class="col-2">
+            	<button type="button" class="btn btn-secondary" id="current-location-but">
+	              📍
+	            </button>
+	          </div>
+	        </div>
+	      </form>
+
         <div class="row">
           <div class="col-1"></div>
-          <div class="col-5">
+          <div class="col-4">
             <span class="bigweather">
-              <form class="search-form" id="search-form">
-                <input
-                  type="text"
-                  id="city-input"
-                  placeholder="Type city name here"
-                  autocomplete="off"
-                />
-                <input type="submit" value="Search" />
-              </form>
-              <button
-                type="button"
-                class="currentLocationButton"
-                id="current-location-but"
-              >
-                📍
-              </button>
-
               <h2 id="city"></h2>
               <br />
               <img src="" alt="Clear" id="icon" class="float-left" />
@@ -47,20 +51,22 @@
             </span>
           </div>
           <div class="col-1"></div>
-          <div class="col-4">
+          <div class="col-5">
             <br />
             <ul class="maintext">
-              <li></li>
+              <li class="currentime">Sunday, Dec 5</li>
               <li>
                 <span class="current-weather" id="description"> Cloudy </span>
               </li>
+              <li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind speed: <span id="windSpeed"> </span> m/s</li>
+              </li>
               <br />
-              <li class="currentime">Sunday, Dec 5</li>
             </ul>
           </div>
           <div class="col-1"></div>
         </div>
-        <br />
         <br />
         <div class="row">
           <div class="col">
