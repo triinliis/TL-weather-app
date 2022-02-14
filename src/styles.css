@@ -45,3 +45,12 @@ body {
   font-size: 130%;
   font-family: "Gill Sans", sans-serif;
 }
+
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+}
