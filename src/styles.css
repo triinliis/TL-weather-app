@@ -13,8 +13,17 @@ body {
   font-family: "Gill Sans", sans-serif;
   list-style: none;
 }
-.smalltext {
-  font-size: 130%;
+.smalltext-max {
+  font-size: 100%;
+  font-family: "Gill Sans", sans-serif;
+}
+.smalltext-min {
+  font-size: 100%;
+  font-family: "Gill Sans", sans-serif;
+  color: #868d96;
+}
+.smalltext-divider {
+  font-size: 100%;
   font-family: "Gill Sans", sans-serif;
 }
 .bigweather {
