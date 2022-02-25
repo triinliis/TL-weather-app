@@ -63,3 +63,8 @@ body {
 .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast {
+  color: grey;
+  text-align: center;
+}
